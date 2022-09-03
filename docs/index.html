@@ -1,67 +1,78 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" href="../css/styles.css"/>
     <title>Creative Store</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    
+    
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1></h1>
+    <div>
+      <header class="header">
+        <section class="header__sectionlogo">
+          <img class="header__sectionlogo__image" src="../../images/logo.png" alt="logo">
+          <h1 class="header__sectionlogo__title">LayoutDeEjemplo</h1>
+        </section>
+       <section class="header__sectionlinks">
+        <nav class="header__sectionlinks__nav">
+          <ol class="header__sectionlinks__nav__list">
+            <li class="header__sectionlinks__nav__list__element">Link1</li>
+            <li class="header__sectionlinks__nav__list__element">Link2</li>
+            <li class="header__sectionlinks__nav__list__element">Link3</li>
+            <li class="header__sectionlinks__nav__list__element">Link4</li>
+          </ol>
+        </nav>
+       </section>
+        
       </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      <main class="main">
+       <section class="main__sectionNotice">
+      <article class="main__sectionNotice__article">
+        <h2 class="main__sectionNotice__article__h2">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+        <p class="main__sectionNotice__article__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae dolores unde quaerat ad distinctio. Quam doloribus magni alias nihil exercitationem voluptatum? Omnis quasi eveniet iste, totam cupiditate alias eius fugiat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis dolorem repellat odio hic aut possimus autem neque, asperiores inventore, beatae a molestias, dignissimos similique fugit magnam numquam libero? Ipsum, blanditiis?</p>
+      </article>
+      <article class="main__sectionNotice__article">
+        <h2 class="main__sectionNotice__article__h2">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+        <p class="main__sectionNotice__article__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae dolores unde quaerat ad distinctio. Quam doloribus magni alias nihil exercitationem voluptatum? Omnis quasi eveniet iste, totam cupiditate alias eius fugiat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis dolorem repellat odio hic aut possimus autem neque, asperiores inventore, beatae a molestias, dignissimos similique fugit magnam numquam libero? Ipsum, blanditiis?</p>
+      </article>
+      <article class="main__sectionNotice__article">
+        <h2 class="main__sectionNotice__article__h2">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+        <p class="main__sectionNotice__article__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae dolores unde quaerat ad distinctio. Quam doloribus magni alias nihil exercitationem voluptatum? Omnis quasi eveniet iste, totam cupiditate alias eius fugiat!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis dolorem repellat odio hic aut possimus autem neque, asperiores inventore, beatae a molestias, dignissimos similique fugit magnam numquam libero? Ipsum, blanditiis?</p>
+      </article>
+       </section>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
+       <section class="main__sectionAside">
+        <aside class="main__sectionAside__aside">
+          <div>cuadrado naranja</div>
+          <div>cuadrado naranja</div>
+        </aside>
+       </section>
       </main>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
+      <footer class="footer">
+        <nav class="footer__navLink">
+          <ol class="footer__navLink__list">
+            <li class="footer__navLink__list__element">Link1</li>
+            <li class="footer__navLink__list__element">Link2</li>
+            <li class="footer__navLink__list__element">Link3</li>
+            <li class="footer__navLink__list__element">Link4</li>
+          </ol>
+        </nav>
+        <nav class="footer__navMedia">
+          <ol class="footer__navMedia__list">
+            <li class="footer__navMedia__element">FB</li>
+            <li class="footer__navMedia__element">TW</li>
+            <li class="footer__navMedia__element">G+</li>
+          </ol>
+        </nav>
       </footer>
 
     </div>
-  
   </body>
 </html>
