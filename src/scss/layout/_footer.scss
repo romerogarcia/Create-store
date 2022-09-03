@@ -1,0 +1,47 @@
+.pageFooter {
+
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  padding: 1rem;
+  background-color: $background;
+  display: flex;
+  flex-direction: column;
+  &__navLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &__list{
+      display: flex;
+      justify-content: space-around;
+      background-color: $listcolor;
+      width: 320px;
+     
+      &__element{
+        list-style:none;
+        color:$letter;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  &__navMedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__list{
+      display: flex;
+      justify-content: space-around;
+      background-color: $media;
+      width: 160px;
+      &__element{
+        color: $letter;
+        list-style:none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
