@@ -45,10 +45,6 @@ Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros q
 
 ## Flujo de archivos con Gulp
 
-Estas tareas de Gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
 ## `gulpfile.js` y `config.json`
 
 Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
