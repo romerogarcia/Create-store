@@ -7,6 +7,10 @@
   background-color: $background;
   display: flex;
   flex-direction: column;
+  @media screen and(min-width:1024px){
+    flex-direction: row;
+    justify-content:space-around;
+    }
   &__navLink{
     display: flex;
     align-items: center;

@@ -1,0 +1,44 @@
+.pageMain{
+    display: flex;
+    background-color: $gray;
+    @media screen and(min-width:1024px){
+        justify-content: space-around;
+        height: 100vh;
+        }
+    &__sectionText{
+        background-color: $letter;
+        @media screen and(min-width:1024px){
+            margin-left: 70px;
+            }
+        
+        &__article{
+            margin: 20px;
+            border-bottom: 1px solid #000000;
+            &__title{
+                margin-bottom: 10px; 
+            }
+            &__text{
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    &__sectionAside{
+        background-color: $backgroundAside;
+        margin-right: 70px;
+        @media screen and(max-width:1024px){
+            display:none
+            }
+        &__aside{
+            
+            &__square{
+                width: 200px;
+                height: 150px;
+                background-color: $background;
+                margin: 20px;
+
+        }
+    }
+}
+}
+
