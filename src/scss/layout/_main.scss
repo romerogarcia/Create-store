@@ -1,6 +1,9 @@
 .pageMain{
     display: flex;
     background-color: $gray;
+    @media screen and (min-width:375px){
+        height: 100vh; 
+    }
     @media screen and (min-width: 500px) and (max-width:1024px){
         height: 100vh;
         justify-content: space-around;
