@@ -1,6 +1,6 @@
 # Maquetación web Create-Store
 
-Este es mi proyecto de maquetación creado con **HTML | SCSS | DISEÑO RESPONSIVO | NPM | Node.js | Gulp**.
+Este es mi proyecto de maquetación creado con **HTML | SCSS | Diseño Responsivo | NPM | Node.js | Gulp**.
 
 Los requisitos de la prueba son:
 
