@@ -1,8 +1,11 @@
 .pageMain{
     display: flex;
     background-color: $gray;
-    @media screen and(min-width:1024px){
+    @media screen and (min-width: 500px) and (max-width:1024px){
+        height: 100vh;
         justify-content: space-around;
+    }
+   @media screen and(min-width:1024px){
         height: 100vh;
         }
     &__sectionText{
@@ -25,10 +28,13 @@
 
     &__sectionAside{
         background-color: $backgroundAside;
-        margin-right: 70px;
-        @media screen and(max-width:1024px){
-            display:none
+        
+        @media screen and(max-width:500px){
+            display:none;
             }
+        @media screen and (min-width:1024px) {
+margin-right: 70px;
+        }   
         &__aside{
             
             &__square{
